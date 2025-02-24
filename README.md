@@ -11,7 +11,13 @@ We will be opening the log file for reading, and traversing it line-by-line to f
 
 
 ##  Project 2 (unique_integer.py)
-The purpose of this project is to find the non-repeating integer
+Given a list of mixed integers and characters, where each integer is repeated twice except for one:
+
+a. Write a program to find the one integer that is not repeating twice.
+b. Write unit tests for your program.
+
+There is no need to solve for all possible scenario (Non-English support, Unicode support, white
+spaces, etc.). 
 
 ### Installation
 - Install pytest testing framework using pip
