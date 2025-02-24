@@ -1,0 +1,6 @@
+07:22:54 TylanceSvc(2172)[88] Information: Logging Started: Thursday, May 10, 2018 7:22:54 AM (Thu, 10 May 2024 14:22:54 GMT) Machine Name: OS-EN-CTFBZM2 FQDN: OS-EN-CTFBZM2.Tylancecorp.com Product Version: 2.0.1490.21
+07:25:32 TylanceSvc(2172)[88] Error: [ImpersonatedTaskManager] GetLogonTokenForImpersonatedTask:Unable To Get Token
+07:49:12 TylanceSvc(2172)[98] Information: [LogUploadEngine] Log Rollover Event received
+08:13:23 TylanceSvc(2172)[98] Critical: [LogUploadEngine] The service has stopped
+08:16:44 TylanceSvc(2172)[20] Information: [Tylance.Host.Analyzer.FileProcessor] GetFileStatus_QueryCloudSetResults: Infinity network connection state changed;new state=NotConnected
+08:32:55 TyUpdate(10836)[1] Error: [UpdateMgr] EXCEPTION MESSAGE Could not connect to service control manager.
