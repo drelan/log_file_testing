@@ -10,7 +10,7 @@ def find_single_integer(mixed_list):
         if count == 1:
             return integer
     
-    return None  # Return None if no single integer found (though the list we will pass will have one)
+    return None  # Return None if no single integer found
 
 if __name__ == "__main__":
     # Example usage
