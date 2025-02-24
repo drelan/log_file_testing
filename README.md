@@ -12,8 +12,10 @@ We will be opening the log file for reading, and traversing it line-by-line to f
 - Install pytest testing framework using pip
   
 ### Execution
-- Pre-Requisite: Python 3.13.x is installed
-- `$ pytest test_log_parser.py`
+- Clone the repo from GitHub.
+- From the project/ directory:
+   - Run the script: python src/log_parser.py
+   - Run unit tests: pytest tests/test_log_parser.py --verbose
 
 
 ##  Project 2 (unique_integer.py)
@@ -29,5 +31,7 @@ spaces, etc.).
 - Install pytest testing framework using pip
 
 ### Execution
-- Pre-Requisite: Python 3.13.x is installed
-- `$ pytest test_unique_integer.py --verbose`
+- Clone the repo from GitHub.
+- From the project/ directory:
+   - Run the script: python src/log_unique_integer.py
+   - Run unit tests: pytest tests/test_unique_integer.py --verbose
