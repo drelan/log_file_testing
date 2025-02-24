@@ -1,13 +1,19 @@
 ## Project 1 (parser.py)
-Parsing of a given log file based on the given conditions and parameters like message severity, message string
-Have added a log file in this project which will be parsed by the python program.
+Given a sample/example log file, create a parser with the following requirements. Ignore
+the line labels (e.g. “Line 1:”).
+a. Given a message severity (Information, Error, Critical) return all matching lines
+b. Given a message string and a starting time stamp return the matching message line(s) or
+timeout after 30 minutes.
 
 ### Steps
 We will be opening the log file for reading, and traversing it line-by-line to find out the lines matching the given criteria.
 
+### Installation
+- Install pytest testing framework using pip
+  
 ### Execution
 - Pre-Requisite: Python 3.13.x is installed
-- `$ python3 parser.py`
+- `$ pytest test_log_parser.py`
 
 
 ##  Project 2 (unique_integer.py)
@@ -23,4 +29,5 @@ spaces, etc.).
 - Install pytest testing framework using pip
 
 ### Execution
-- $ pytest test_unique_integer.py --verbose
+- Pre-Requisite: Python 3.13.x is installed
+- `$ pytest test_unique_integer.py --verbose`
